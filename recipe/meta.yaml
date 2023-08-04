@@ -27,7 +27,6 @@ requirements:
     - asgiref >=3.5.2
     - click >=8.0.3
     - htmltools >=0.2.1
-    - importlib-metadata >=1.1.0,<5  # [py<38]
     - linkify-it-py >=1.0
     - markdown-it-py >=1.1.0
     - mdit-py-plugins >=0.3.0
