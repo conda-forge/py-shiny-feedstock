@@ -1,5 +1,5 @@
 {% set name = "shiny" %}
-{% set version = "0.2.9" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shiny-{{ version }}.tar.gz
-  sha256: 4da295cdb998cf397cc014d2e0005ac58b5b4be97e931051233152f8397cb5fb
+  sha256: ee58e8f504f54b651a82fc559ee03794a25973ba2ce545bed0a73495d448a5fd
 
 build:
   number: 0
@@ -26,9 +26,10 @@ requirements:
     - appdirs >=1.4.4
     - asgiref >=3.5.2
     - click >=8.0.3
-    - htmltools >=0.1.0.9001
+    - htmltools >=0.2.1
     - linkify-it-py >=1.0
     - markdown-it-py >=1.1.0
+    - mdit-py-plugins >=0.3.0
     - python-multipart
     - starlette >=0.17.1
     - typing-extensions >=4.0.1
