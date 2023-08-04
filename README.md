@@ -1,11 +1,11 @@
-About py-shiny
-==============
+About py-shiny-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py-shiny-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/py-shiny
 
 Package license: BSD-3-Clause AND MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py-shiny-feedstock/blob/main/LICENSE.txt)
 
 Summary: A web development framework for Python.
 
@@ -161,4 +161,5 @@ Feedstock Maintainers
 =====================
 
 * [@sugatoray](https://github.com/sugatoray/)
+* [@wch](https://github.com/wch/)
 
