@@ -10,7 +10,7 @@ source:
   sha256: 5d8525fb645c5ea0f34cf154d6c622dd67d13f5e2822283ace1e376cbb1541ff
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - shiny = shiny._main:main
