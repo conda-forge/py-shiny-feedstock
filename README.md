@@ -3,15 +3,15 @@ About py-shiny-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py-shiny-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/rstudio/py-shiny
+Home: https://github.com/posit-dev/py-shiny
 
 Package license: BSD-3-Clause AND MIT
 
 Summary: A web development framework for Python.
 
-Development: https://github.com/rstudio/py-shiny
+Development: https://github.com/posit-dev/py-shiny
 
-Documentation: https://shiny.rstudio.com/py/
+Documentation: https://shiny.posit.co/py/
 
 
 Shiny makes it easy to build interactive web applications with the power
