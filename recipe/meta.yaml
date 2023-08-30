@@ -36,8 +36,8 @@ requirements:
     - uvicorn >=0.16.0
     - websockets >=10.0
     ## DONOT REMOVE THESE LINES
-    # grayskull utility generated some 
-    # of the dependencies, but they are 
+    # grayskull utility generated some
+    # of the dependencies, but they are
     # not used as is or just dropped altogether.
     # # - contextvars >=2.4 [only necessary for python>=3,<3.7]
 
@@ -45,10 +45,10 @@ test:
   imports:
     - shiny
   commands:
-    # Commenting out pip check as it compains about 
-    # not finding contextvars (which is only necessary 
+    # Commenting out pip check as it compains about
+    # not finding contextvars (which is only necessary
     # for python<3.7)
-    # - pip check 
+    # - pip check
     - shiny --help
   requires:
     - pip
@@ -65,13 +65,13 @@ about:
   description: |
     # Shiny for Python
 
-    Shiny makes it easy to build interactive web applications with the power 
+    Shiny makes it easy to build interactive web applications with the power
     of Python’s data and scientific stack.
 
     - **Approachable**: Write your application in Python; no web development skills required.
-    - **Flexible**: Built from the ground up to support custom layouts, styles, and the 
+    - **Flexible**: Built from the ground up to support custom layouts, styles, and the
       modularity required for full-fledged applications, all from Python.
-    - **Performant**: Uses reactivity to efficiently handle data processing and minimize 
+    - **Performant**: Uses reactivity to efficiently handle data processing and minimize
       expensive re-computations.
 
     PyPI: [https://pypi.org/project/shiny](https://pypi.org/project/shiny)
