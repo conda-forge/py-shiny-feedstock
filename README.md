@@ -14,6 +14,7 @@ Development: https://github.com/posit-dev/py-shiny
 Documentation: https://shiny.posit.co/py/
 
 
+
 Shiny makes it easy to build interactive web applications with the power
 of Python’s data and scientific stack.
 
