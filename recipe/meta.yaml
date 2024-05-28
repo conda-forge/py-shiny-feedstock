@@ -23,18 +23,21 @@ requirements:
     - setuptools
   run:
     - python >=3.7
-    - appdirs >=1.4.4
-    - asgiref >=3.5.2
-    - click >=8.0.3
-    - htmltools >=0.2.1
-    - linkify-it-py >=1.0
-    - markdown-it-py >=1.1.0
-    - mdit-py-plugins >=0.3.0
-    - python-multipart
-    - starlette >=0.17.1
     - typing-extensions >=4.0.1
     - uvicorn >=0.16.0
+    - starlette >=0.17.1
     - websockets >=10.0
+    - python-multipart
+    - htmltools >=0.5.1
+    - click >=8.1.4
+    - markdown-it-py >=1.1.0
+    - mdit-py-plugins >=0.3.0
+    - linkify-it-py >=1.0
+    - appdirs >=1.4.4
+    - asgiref >=3.5.2
+    - packaging >=20.9
+    - watchfiles >=0.18.0
+    - questionary >=2.0.0
     ## DONOT REMOVE THESE LINES
     # grayskull utility generated some
     # of the dependencies, but they are
