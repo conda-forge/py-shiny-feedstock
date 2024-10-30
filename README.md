@@ -164,6 +164,3 @@ Feedstock Maintainers
 * [@sugatoray](https://github.com/sugatoray/)
 * [@wch](https://github.com/wch/)
 
-
-<!-- dummy commit to enable rerendering -->
-
