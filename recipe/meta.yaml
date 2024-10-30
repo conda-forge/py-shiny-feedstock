@@ -19,16 +19,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.9
     - setuptools
   run:
-    - python >=3.7
-    - typing-extensions >=4.0.1
+    - python >=3.9
+    - typing-extensions >=4.10.0
     - uvicorn >=0.16.0
-    - starlette >=0.17.1
+    - starlette
     - websockets >=10.0
     - python-multipart
-    - htmltools >=0.5.1
+    - htmltools >=0.6.0
     - click >=8.1.4
     - markdown-it-py >=1.1.0
     - mdit-py-plugins >=0.3.0
@@ -38,6 +38,10 @@ requirements:
     - packaging >=20.9
     - watchfiles >=0.18.0
     - questionary >=2.0.0
+    - prompt-toolkit
+    - setuptools
+    - narwhals >=1.10.0
+    - orjson >=3.10.7
     ## DONOT REMOVE THESE LINES
     # grayskull utility generated some
     # of the dependencies, but they are
