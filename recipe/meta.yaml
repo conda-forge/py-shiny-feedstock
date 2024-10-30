@@ -1,5 +1,5 @@
 {% set name = "shiny" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shiny-{{ version }}.tar.gz
-  sha256: 7a82338e72486e488c67b7a6230303648ae8ea14c656520f33fc44355a477a59
+  sha256: 2df5c87f22d1e3bc05f2678429a5502d09e316e8666cc30182c4ab8213c5dce9
 
 build:
   number: 0
