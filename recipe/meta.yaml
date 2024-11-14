@@ -20,7 +20,9 @@ requirements:
   host:
     - pip
     - python >=3.9
-    - setuptools
+    - setuptools >=60
+    - wheel
+    - setuptools_scm >=8
   run:
     - python >=3.9
     - typing-extensions >=4.10.0
