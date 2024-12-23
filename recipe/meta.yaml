@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shiny-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/shiny-{{ version }}.tar.gz
   sha256: 69a4db338710d87fad0ae50e04b2d70f6b7183edb846db4fa90cd7456091feee
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - shiny = shiny._main:main
@@ -19,10 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - typing-extensions >=4.10.0
     - uvicorn >=0.16.0
     - starlette
@@ -59,6 +59,7 @@ test:
     - shiny --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/posit-dev/py-shiny
