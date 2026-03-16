@@ -10,7 +10,7 @@ source:
   sha256: 05c709c2a074b9e9f5a82065460815ff40bc686286bacfcab5195a69f3ae759b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - shiny = shiny._main:main
@@ -19,12 +19,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools >=60
     - wheel
     - setuptools_scm >=8
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - typing-extensions >=4.10.0
     - uvicorn >=0.16.0
     - starlette
@@ -61,6 +61,7 @@ test:
     - shiny --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/posit-dev/py-shiny
